@@ -57,7 +57,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.quantile;
+})();
 })();
 </script>
 ```
@@ -146,6 +148,7 @@ y = myQuantile( 0.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cosine-quantile@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var mu;
 var s;
@@ -161,6 +164,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'p: %d, µ: %d, s: %d, Q(p;µ,s): %d', p, mu, s, y );
 }
 
+})();
 })();
 </script>
 </body>
