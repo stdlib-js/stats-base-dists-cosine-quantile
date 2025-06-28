@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-22)
+## Unreleased (2025-06-28)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a4ce77e`](https://github.com/stdlib-js/stdlib/commit/a4ce77efe910c9398e75b767fb81e786a3a04cc0) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
 -   [`079d040`](https://github.com/stdlib-js/stdlib/commit/079d04046139093c7b4dea9f30b6004a8263c911) - **feat:** add C implementation for `stats/base/dists/cosine/quantile` [(#6283)](https://github.com/stdlib-js/stdlib/pull/6283) _(by Harishchandra Reddy, Philipp Burckhardt, stdlib-bot)_
 -   [`2ad245f`](https://github.com/stdlib-js/stdlib/commit/2ad245f8ea17a02a55fb41de90a7d6ee7c738c87) - **bench:** update random value generation [(#7094)](https://github.com/stdlib-js/stdlib/pull/7094) _(by Harsh)_
 -   [`5bed283`](https://github.com/stdlib-js/stdlib/commit/5bed2837d020e3ea6f8452e85b0f7008d4d76b68) - **docs:** replace manual `for` loop in examples [(#7075)](https://github.com/stdlib-js/stdlib/pull/7075) _(by Harsh)_
